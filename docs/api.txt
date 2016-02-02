@@ -11,13 +11,24 @@ API Reference
 .. autoclass:: OutputCapture
    :members:
 
-.. autoclass:: Replacer()
+.. autoclass:: Replace
    :members:
+
+.. autoclass:: Replacer
+   :members:
+
+.. autofunction:: replace
 
 .. autoclass:: RoundComparison
    :members:
 
 .. autoclass:: ShouldRaise
+   :members:
+
+.. autoclass:: ShouldWarn
+   :members:
+
+.. autoclass:: ShouldNotWarn
    :members:
 
 .. autoclass:: StringComparison
@@ -51,8 +62,6 @@ API Reference
 .. autofunction:: generator
 
 .. autofunction:: log_capture
-
-.. autofunction:: replace
 
 .. autoclass:: should_raise
 
